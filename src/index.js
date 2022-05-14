@@ -3,10 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router,Route,Routes } from 'react-router-dom';
-import AddItem from './components/addItem';
-import Editproduct from './components/Editproduct';
-import 'react-toastify/dist/ReactToastify.min.css'
+// import 'react-toastify/dist/ReactToastify.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  <App />
