@@ -5,9 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import 'react-toastify/dist/ReactToastify.min.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { HashRouter } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
- <App />
+    <React.StrictMode>
+    <HashRouter>
+     <App />
+ </HashRouter>
+ </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
